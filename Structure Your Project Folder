@@ -1,0 +1,23 @@
+agentic_travel_assistant/
+│
+├── agents/
+│   ├── weather_agent.py
+│   ├── map_agent.py
+│   ├── stay_agent.py
+│   ├── transport_agent.py
+│   └── attraction_agent.py
+│
+├── orchestrator/
+│   └── router_agent.py
+│
+├── api_keys/
+│   └── config.py          # Stores API keys (use dotenv for safety)
+│
+├── ui/
+│   └── app.py             # Streamlit or Flask app
+│
+├── utils/
+│   └── helpers.py         # Common functions
+│
+├── requirements.txt
+└── README.md
